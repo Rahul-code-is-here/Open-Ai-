@@ -1,7 +1,7 @@
 const generateForm = document.querySelector(".generate-form");
 const imageGallerty = document.querySelector(".image-gallery");
 
-const OPENAI_API_KEY = "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"; 
+const OPENAI_API_KEY = ""; 
 
 const generateAiImages= async (userPromt,userImageQuantity) => {
     //we will use OpenAPI to generate images based on the user prompt
